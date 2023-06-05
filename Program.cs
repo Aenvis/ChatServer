@@ -59,7 +59,7 @@ namespace ChatServer
                     if (data.IndexOf("<EOF>") > -1) break;
                 }
 
-                Console.WriteLine($"Text received : {data}");
+                Console.WriteLine($"Text received: {data}");
 
                 // Encoding.ASCII.GetBytes(data) to msg: byte[] variable
                 // Then Send, Shutdown(SocketShutdown.Both) and Close connection from the handler
